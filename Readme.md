@@ -27,7 +27,6 @@
 13. Navigate to DockerHub & discover your freshly built & served image of Flask App!
 
 
-#
 
 
 
