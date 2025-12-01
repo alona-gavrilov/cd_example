@@ -6,7 +6,7 @@
 
 3. python3 -m venv env
  
- 
+
 4. source env/Scripts/activate
 
 5. pip install flask
@@ -18,6 +18,7 @@
 8. GitHub-> Repo -> Action -> `Publish Python package` -> `Set up this workflow`
 
 9. Paste contents of python-publish.yml
+
 
 10. `Start commit`
 
