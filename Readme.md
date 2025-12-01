@@ -5,7 +5,8 @@
 2. Set up DockerHub account
 
 3. python3 -m venv env
-
+ 
+ 
 4. source env/Scripts/activate
 
 5. pip install flask
