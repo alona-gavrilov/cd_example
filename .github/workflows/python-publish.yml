@@ -25,11 +25,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Test Docker installation
+      - name: Verify Docker installation
         run: docker run hello-world
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
-          push: true
-          tags: ${{ secrets.DOCKERHUB_REPO }}:latest
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+          repository: ${{ secrets.DOCKERHUB_REPO }}
+          tags: latest
