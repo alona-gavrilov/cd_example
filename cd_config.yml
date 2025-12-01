@@ -2,9 +2,8 @@ name: Python Package
 
 on:
     push:
-      branches: [ master ]
+      branches: [ main ]
       
-
 
 jobs:
     deploy:
